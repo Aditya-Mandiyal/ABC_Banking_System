@@ -8,9 +8,16 @@ class ABCbank{
 	    private String acc_type;  
 	    private long balance;
 	    
-	    public void openAccount() {
-	    	
-	    }
+	  public void openAccount() {  
+        System.out.print("Account No: ");  
+        accountNumber = sc.next();  
+        System.out.print("Account type: ");  
+        accountType = sc.next();  
+        System.out.print("Enter Name: ");  
+        name = sc.next();  
+        System.out.print("Enter Balance: ");  
+        balance = sc.nextLong();  
+    } 
 }
 public class Bank {
 	    public static void main(String[] args){
